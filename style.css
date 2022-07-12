@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #f0f2f5;
+    color: #1c1e21;
+    line-height: 16px;
+    font-size: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img{
+    text-align: center;
+    padding-top: 5px;
+}
+    .fbimg{
+        height: 6.25rem;
+    }
+.container{
+    margin: 0 auto 30px auto;
+    font-size: 1rem;
+    padding: 0 20px 0px 0;
+    background-color: #fff;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    border-radius: 0.5rem;
+    max-width: 27rem;
+    min-height: 38.058125rem ;
+    position: relative;
+    
+}
+    .top{
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    padding: 10px 16px;
+    position: relative;
+    width: 27rem
+    }
+    .newA{
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    color: #1c1e21;
+    font-family: SFProDisplay-Bold, Helvetica,;
+    font-weight: 600;
+    min-height: 32px;
+    }
+    .quick{
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #606770;
+    margin-bottom:0 ;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    }
+
+    .BA{
+        font-weight: 500;
+        font-size: 1.2em;
+        color: #bbb;
+        position: absolute;
+        content: "";
+        height: 0.5px;
+        min-width: 100%;
+        background-color: #ccc;
+        margin-top: 0.5rem;
+        right: 0;
+        overflow: hidden;
+    }
+    .registration{
+        background-color: #fff;
+        border-radius: 0 0 8px 8px;
+        /*border-top: 1px solid #dadde1;*/
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 432px;
+        height:31.434rem;
+       
+
+        
+    }
+    .divname{
+        background: white;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+        width: 100%;
+        margin: 20px 0px 10px 0px;
+        
+    }
+    .firstname{
+            padding: 11px;
+            border-radius: 5px;
+            border: 1px solid #dddddd; 
+            width: 194px;
+            font-size: 15px;
+            line-height: 16px;
+            outline: none;
+            position: absolute;
+            left: 0;
+    }
+    .surname{        
+        width: 194px;
+        font-size: 15px;
+        line-height: 16px;
+        padding: 11px;
+        border-radius: 5px;
+        outline: none;
+        border: 0.5px solid #dddddd; 
+        position: absolute;
+        right: 0;
+
+    }
+    input::placeholder{
+        color: #8d949e;
+    }
+    .input{
+        color: #8d949e;
+        padding: 11px;
+        font-size: 15px;
+        border-radius: 5px;
+        border: 1px solid #dddddd; 
+        outline: none;
+        display: block;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .icon{
+        margin-top: 10px;
+        margin-bottom: 2px;
+        position: relative;
+        width: 100%;
+    }
+    .birth{
+        color: #606770;
+        font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        font-weight: normal;
+        line-height: 20px;
+    }
+    .svg{
+        position: absolute;
+        bottom: 0;
+        margin-left: 5px;
+        color: #606770;
+    }
+
+    .select{
+        width: 100%;
+        height: 36px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    ._8esg {
+            border-radius: 4px;
+            border: 1px solid #dddddd; 
+            outline: none;
+            font-size: 15px;
+            font-weight: normal;
+            height: 36px;
+            line-height: 20px;
+            width: 125px;
+            vertical-align: top;
+            padding-left: 8px;
+            padding-right: 20px;
+        }
+.span{
+    background-color: #fff;
+    border: 1px solid #ccd0d5;
+    border-radius: 4px;
+    outline: none;
+    line-height: 36px;
+    font-weight: normal;
+    height: 36px;
+    padding: 0;
+    position: relative;
+    width: 125px;;
+
+}
+        label{
+            font-size: 15px;
+            padding: 0 28px 0 10px;
+        }
+        .radio{
+            position: absolute;
+            margin: 0;
+            right: 6%;
+            top: 35%;
+        }
+.p{
+    width: 400px;
+    display: block;
+}
+    p{
+        font-size: 11px;
+        font-family: inherit;
+        color: #777;
+        margin: 1em 0;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    a{ 
+        text-decoration: none;
+        cursor: pointer;
+        color: #385898;
+
+    }
+    a:hover {
+        text-decoration-line: underline;
+    }
+    .divbutton{
+        margin: 10px;
+        
+    }
+    .button{
+        background: none;
+        min-width: 194px;
+        text-align: center;
+        background-color: #00a400;
+        border: none;
+        border-radius: 6px;
+        box-shadow: none;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        height: 36px;
+        overflow: hidden;
+        padding: 0 32px;
+        text-shadow: none;
+        margin: 10px,0px;
+    }
+    ._a{
+        margin: 10px;
+        color: #1877f2;
+        font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .already{
+        padding: 10px 0;
+        text-align: center;
+        color: #1877f2;
+    }
+    .already:hover{
+        text-decoration: none;
+    }
